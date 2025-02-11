@@ -18,7 +18,7 @@ COPYRIGHT = "Damaie"
 
 // Weight : SDGs, 人文地產景, 德智體群美
 WEIGHT = [1, 0, 0]
-WEIGHTS = ["SDGs", "CommunityDevelopment", "FiveWaysofLife"]
+WEIGHTS = ["SDGs"] //, "CommunityDevelopment", "FiveWaysofLife"]
 
 // FEATURES
 LLM = true

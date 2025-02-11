@@ -74,7 +74,7 @@ section {
 }
 
 .bg-gray {
-  background-color: #e3e3e7;
+  background-color: #E2E0D3;
 }
 
 .checkbox-1x {
@@ -158,11 +158,11 @@ section {
 }
 
 .bg-navbar {
-  background-color: #fff38d !important;
+  background-color: #E2E0D3 !important;
 }
 
 .bg-footer {
-  background-color: #fff38d !important;
+  background-color: #E2E0D3 !important;
 }
 
 .fw-bold {
@@ -200,7 +200,7 @@ section {
 }
 
 .bg-2ndhome {
-  background-color: #fff38d;
+  background-color: #E2E0D3;
 }
 
 .align-sub {
@@ -227,7 +227,7 @@ section {
   background-color: #ebebeb;
 }
 .dropdown-item:active {
-  background-color: #fff38d;
+  background-color: #E2E0D3;
   color: #4e4e4e;
 }
 @media (min-width: 0px) {
@@ -402,7 +402,7 @@ section {
 }
 
 .show-more-btn {
-  background-color: #fff38d;
+  background-color: #E2E0D3;
   color: #000;
   border: none;
   padding: 10px 20px;

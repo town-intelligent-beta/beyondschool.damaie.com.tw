@@ -145,11 +145,13 @@ export function append_plan_submit_data(page, form) {
     }
 
     // Additional SDGs data
+    /*
     for(var index = 17; index <= 27; index++) {
       if (document.getElementById("sdg_" + index.toString()).checked.toString() == "true") {
         list_sdg[index - 1] = 1;
       }
     }
+    */
 
     // Set local storage
     form.append("list_sdg", list_sdg);
@@ -171,6 +173,7 @@ export function append_plan_submit_data(page, form) {
     }
 
     // Additional SDGs data
+    /*
     for (var index = 17 ; index <=27; index++) {
       // Append to JSON
       if (document.getElementById("sdg_" + ("0" + (index + 1)).slice(-2) + "_des") == null) {
@@ -178,6 +181,7 @@ export function append_plan_submit_data(page, form) {
       }
 	    dataJSON[index] = document.getElementById("sdg_" + ("0" + (index + 1)).slice(-2) + "_des").innerText;
     }
+    */
 
     // {"0":"透過深度參與豐富指標","11":"定期聚板相關市集","14":"社區友善農業的產銷創生解方"}
     form.append("weight_description", JSON.stringify(dataJSON));
